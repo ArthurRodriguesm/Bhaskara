@@ -1,0 +1,104 @@
+body{
+    background-color: #000000f6;
+    font-family: Nerko One, sans-serif;
+}
+
+header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Lobster, sans-serif;
+    text-decoration: underline 2px;
+}
+
+#interface{
+    background-color: #96cdfa;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    width: 90%;
+    max-width: 980px;
+    height: 100vh;
+    border-radius: 20px;
+}
+
+#numeros{
+    text-align: center;
+    font-size: 13pt;
+}
+#numeros input[type = number]{
+    padding: 5px;
+    text-align: center;
+    border: 0;
+    border-radius: 2px;
+    width: 10vw;
+    margin: 4px;
+    background-color: #ffffffb2;
+}
+
+#botao{
+    text-align: center;
+    margin: 20px;
+}
+
+.button{
+    
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #1b1b1b;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 15pt;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 5px;
+}
+
+.button:hover{
+    background-color: #161616;
+}
+
+#result{
+    text-align: center;
+    font-size: 12pt;
+    background-color: #ffffffb2;
+    color: #111;
+    margin: auto;
+    width: 80%;
+    height: 12vh;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #979797;
+}
+
+#formula{
+    text-align: center;
+    font-size: 15pt;
+    background-color:  #ffffffb2;
+    color: #111;
+    margin: auto;
+    width: 80%;
+    max-width: 400px;
+    height: 65vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #979797;
+}
+#formula hr{
+    margin: 3 auto;
+    width: 15%;
+    color: rgb(224, 224, 224);
+}
+
+#descricao{
+    text-align: center;
+    color: #fff;
+}
+
+#rodape{
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+}
+#rodape a{
+    color: #fff;
+    text-decoration: none;
+}
